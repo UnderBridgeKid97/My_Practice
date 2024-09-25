@@ -1,0 +1,34 @@
+<오늘의 목표> 
+Title / MainMenu 씬 구현하기
+
+<오늘의 과제>
+1. MainMenu 씬 생성
+2. Main Menu Ui 구성(터렛, Play,Quit 버튼) 및 기능 구현
+  - 각각의 버튼을 연결하는 메서드  2개 만들고 버튼 이벤트 연결하기
+  - Play : Play씬으로 이동 Debug.Log("Goto PlayScene");
+  - Quit : Debug.Log("Game Quit!!");
+3. 터렛 애니메이션 구성
+
+4. Title 씬 생성
+1) 게임명 만들기 - 작명 : My Defence
+2) 게임 타이틀 이미지
+3) 타이틀씬 구성, 기능
+ - AnyKey 텍스트 애니메이션 구현 - 보였다 안보였다
+ - 아무 키를 누르면 메인메뉴 씬 이동로 이동
+ - 10초가 지나면 자동으로 메인메뉴로 이동 (키를 누르지 않아도)
+
+ - AnyKey텍스트 3초 후에 나오기 : 3초 지연한 후에  Show
+ - AnyKey텍스트가 안보이면 AnyKey 눌러도 메인메뉴로 이동하지 않습니다
+
+1) 3초 타이머 
+2) 코루틴 함수
+3) Invoke 함수
+
+<필요 스킬>
+SceneManager LoadScene
+Skybox
+
+
+
+
+
