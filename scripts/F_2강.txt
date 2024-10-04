@@ -1,0 +1,40 @@
+<오늘의 과제> - 인터랙티브
+0. 플레이어 캐릭터(1인칭)셋팅
+- 카메라 셋팅
+
+1. 맵 구성
+  - 방, 통로
+2. 안개 파티클 이펙트
+
+3. Door 오브젝트 설치
+  - 힌지(Hinge)  설치
+  - 힌지를 이용한 문 열기 애니메이션 구현 		 ◈◈◈◈◈
+
+3.5 씬페이드 기능 구현( 디펜스게임 기능 가져오기 - 패키지)
+     토치 패키지 가져오기
+
+4. Canvas UI - Text
+  - [ E ]
+  - Open The Door
+
+= Physics.Raycast를 이용해서 레이저를 맞는 오브젝트와의 거리를 구하기
+
+5. Door Trigger 설치 : 콜라이더 설치
+
+6. 플레이어 부터 Door로 부터 거리가 2 이하 이고 문에 마우스를 올려놓으면
+  - ActionKye("[ E ]")  ActionText ("Open The Door") 화면 출력
+
+7. 마우스가 문에서 벗어나면, 문에서 멀어지면
+  - ActionKye,  ActionText 화면에서 안보이게 한다
+
+8. Action UI 가 보일때 액션키(E) 누르면 문이 열린다
+  - InputManager - "Action" 등록 - key "e"
+  - ActionKye,  ActionText 화면에서 안보이게 한다
+  - 문 여는 애니매이션 실행 (메카님)
+  - Door Trigger 제거(콜라이더 제거) - 문을 통과
+  - 문 사운드 출력
+
+<필요 스킬>
+0. 씨네머신
+1. Physics.Raycast
+   - OnGizmoDrawSelected, Gizmo.DrawRay
